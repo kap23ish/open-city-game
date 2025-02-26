@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>3D Open World Game</title>
+    <style>
+        body { margin: 0; }
+        canvas { display: block; }
+        #instructions {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            color: white;
+            background: rgba(0, 0, 0, 0.8);
+            padding: 15px;
+            font-family: Arial;
+            font-size: 14px;
+            border-radius: 5px;
+            z-index: 1000;
+        }
+    </style>
+</head>
+<body>
+    <div id="instructions">
+        WASD - Move Player<br>
+        Arrow Keys - Drive Car<br>
+        E - Interact (Enter/Exit Car, House, or Shop)<br>
+        Mouse - Look Around<br>
+        Click Game - Lock Mouse<br>
+        Esc - Close Shop Menu<br>
+        Look for floating markers to find interactive objects
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="game.js"></script>
+</body>
+</html> 
